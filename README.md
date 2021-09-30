@@ -21,7 +21,7 @@ end
 Classes.classes(yes: true, no: false) # => "yes"
 ```
 
-[See the documentation for complete documentation and examples](https://hexdocs.pm/classes/Classes.html#classes/0).
+[See the docs for more examples](https://hexdocs.pm/classes/Classes.html#classes/0).
 
 ## Suggested Phoenix installation
 
@@ -44,7 +44,7 @@ end
 
 This way you can call it from any template like:
 
-```heex
+```eex
 <%# In your .heex template %>
 <div class={classes("my-class": true, "not-me": false )}>...</div>
 ```
