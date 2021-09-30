@@ -21,7 +21,7 @@ end
 Classes.classes(yes: true, no: false) # => "yes"
 ```
 
-[See the docs for more examples](https://hexdocs.pm/classes/Classes.html#classes/0).
+[See the docs for more examples](https://hexdocs.pm/classes/Classes.html#classes/1).
 
 ## Suggested Phoenix installation
 
