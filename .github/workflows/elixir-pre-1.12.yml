@@ -1,4 +1,4 @@
-name: Elixir CI
+name: Elixir (pre 1.12) CI
 
 on: push
 
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        elixir-version: "1.12"]
+        elixir-version: ["1.10", "1.11"]
         otp-version: ["23", "24"]
 
     steps:
@@ -30,7 +30,7 @@ jobs:
         run: MIX_ENV=test mix compile --warnings-as-errors
 
       - name: Run tests
-        run: mix test --warnings-as-errors
+        run: mix test
 
       - name: Check format
         run: mix format --check-formatted
