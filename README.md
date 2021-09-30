@@ -1,11 +1,11 @@
 # Classes
 
-**TODO: Add description**
+Pure function for generating CSS classes. Inspired by the popular
+[classnames](https://www.npmjs.com/package/classnames) Javascript library.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `classes` to your list of dependencies in `mix.exs`:
+Install by adding `classes` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +15,14 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/classes](https://hexdocs.pm/classes).
+## Usage
 
+```elixir
+Classes.classes(yes: true, no: false) # => "yes"
+```
+
+[See the documentation for complete documentation and examples](https://hexdocs.pm/classes/Classes.html#classes/0).
+
+## Suggested installation
+
+TODO
