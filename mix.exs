@@ -7,7 +7,7 @@ defmodule Classes.MixProject do
     [
       app: :classes,
       version: @version,
-      elixir: "~> 1.8",
+      elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description:
