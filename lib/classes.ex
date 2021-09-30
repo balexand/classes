@@ -30,7 +30,8 @@ defmodule Classes do
       iex> classes(yes: true, no: false)
       "yes"
 
-      iex> classes(%{"string-key" => true, "atom-key": true})
+      iex> classes(%{"string-key" => true, atomkey: false})
+      "string-key"
 
       iex> classes(yes: "I'm truthy", no: nil)
       "yes"
