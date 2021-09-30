@@ -20,7 +20,7 @@ defmodule Classes.MixProject do
         extras: ["README.md"],
         main: "readme",
         source_ref: "v#{@version}",
-        source_url: "https://github.com/balexand/sanity"
+        source_url: "https://github.com/balexand/classes"
       ]
     ]
   end
