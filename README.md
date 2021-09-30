@@ -10,7 +10,7 @@ Install by adding `classes` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:classes, "~> 0.1.0"}
+    {:classes, "~> 1.0.0"}
   ]
 end
 ```
