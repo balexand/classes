@@ -12,6 +12,8 @@ defmodule Classes do
     * `nil` and `false` are filtered.
     * Lists, including deeply nested lists, containing any of the above types.
 
+  This function does not dedupe classes.
+
   ## Examples
 
       iex> classes("my-class")
