@@ -46,5 +46,5 @@ This way you can call it from any template like:
 
 ```eex
 <%# In your .heex template %>
-<div class={classes("my-class": true, "not-me": false )}>...</div>
+<div class={classes("my-class": true, "not-me": false)}>...</div>
 ```
