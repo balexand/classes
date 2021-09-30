@@ -1,8 +1,8 @@
 defmodule ClassesTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest Classes
 
   test "greets the world" do
-    assert Classes.hello() == :world
+    assert Classes.classes() == :world
   end
 end

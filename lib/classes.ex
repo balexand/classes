@@ -8,11 +8,11 @@ defmodule Classes do
 
   ## Examples
 
-      iex> Classes.hello()
+      iex> Classes.classes()
       :world
 
   """
-  def hello do
+  def classes do
     :world
   end
 end
