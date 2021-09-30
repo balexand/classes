@@ -4,7 +4,9 @@ defmodule Classes do
   """
 
   @doc """
-  Returns a string containing CSS. The argument can be any of the following:
+  Returns a string containing CSS.
+
+  The argument can be any of the following:
 
     * String or atom containing a CSS class or classes.
     * Keyword list or map with string or atom keys. The key is a CSS class and the value is
