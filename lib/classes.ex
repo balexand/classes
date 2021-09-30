@@ -37,6 +37,9 @@ defmodule Classes do
       iex> classes([{"string-key-tuple", true}, {"also-happens-to_work", nil}])
       "string-key-tuple"
 
+      iex> classes([[[nil, false, "hello", :world]]])
+      "hello world"
+
       iex> classes([{"invalid argument"}])
       ** (FunctionClauseError) no function clause matching in Classes.class_list/1
   """
@@ -50,6 +53,8 @@ defmodule Classes do
   defguardp is_class(c) when is_binary(c) or is_atom(c)
 
   # Returns list of strings and atoms
+  defp class_list(false), do: []
+  defp class_list(nil), do: []
   defp class_list(s) when is_class(s), do: [s]
   defp class_list({k, false}) when is_class(k), do: []
   defp class_list({k, nil}) when is_class(k), do: []
