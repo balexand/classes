@@ -1,5 +1,7 @@
 # Classes
 
+[![Package](https://img.shields.io/hexpm/v/classes.svg)](https://hex.pm/packages/classes) [![Documentation](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/classes) ![CI](https://github.com/balexand/classes/actions/workflows/elixir.yml/badge.svg)
+
 Pure function for generating CSS classes. Inspired by the popular
 [classnames](https://www.npmjs.com/package/classnames) Javascript library.
 
